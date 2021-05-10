@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Diriks/final-submission-movie-shoppies/static/css/main.83c4e1ac.chunk.css",
+    "main.js": "/Diriks/final-submission-movie-shoppies/static/js/main.9a2fe21c.chunk.js",
+    "main.js.map": "/Diriks/final-submission-movie-shoppies/static/js/main.9a2fe21c.chunk.js.map",
+    "runtime-main.js": "/Diriks/final-submission-movie-shoppies/static/js/runtime-main.69267b08.js",
+    "runtime-main.js.map": "/Diriks/final-submission-movie-shoppies/static/js/runtime-main.69267b08.js.map",
+    "static/css/2.36a5dc4b.chunk.css": "/Diriks/final-submission-movie-shoppies/static/css/2.36a5dc4b.chunk.css",
+    "static/js/2.94e404b0.chunk.js": "/Diriks/final-submission-movie-shoppies/static/js/2.94e404b0.chunk.js",
+    "static/js/2.94e404b0.chunk.js.map": "/Diriks/final-submission-movie-shoppies/static/js/2.94e404b0.chunk.js.map",
+    "index.html": "/Diriks/final-submission-movie-shoppies/index.html",
+    "static/css/2.36a5dc4b.chunk.css.map": "/Diriks/final-submission-movie-shoppies/static/css/2.36a5dc4b.chunk.css.map",
+    "static/css/main.83c4e1ac.chunk.css.map": "/Diriks/final-submission-movie-shoppies/static/css/main.83c4e1ac.chunk.css.map",
+    "static/js/2.94e404b0.chunk.js.LICENSE.txt": "/Diriks/final-submission-movie-shoppies/static/js/2.94e404b0.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.min.css": "/Diriks/final-submission-movie-shoppies/static/media/glyphicons-halflings-regular.be810be3.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69267b08.js",
+    "static/css/2.36a5dc4b.chunk.css",
+    "static/js/2.94e404b0.chunk.js",
+    "static/css/main.83c4e1ac.chunk.css",
+    "static/js/main.9a2fe21c.chunk.js"
+  ]
+}
