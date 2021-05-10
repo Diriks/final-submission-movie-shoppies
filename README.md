@@ -1,6 +1,5 @@
 # final-submission-movie-shoppies
 This is the final submission for the Shopify front end developer challenge
-- If you are seeing this page on your browser, it means the website is waiting for updates to apply. Please wait for a few minutes for git servers to upload the changes
 
 https://diriks.github.io/final-submission-movie-shoppies/  link to hosted website
 https://docs.google.com/document/d/1SdR9rQpocsH5rPTOcxr9noqHRld5NJlylKO9Hf94U8U/edit#. link to challenge requirements
