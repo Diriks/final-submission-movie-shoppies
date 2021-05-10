@@ -15,10 +15,13 @@ import Heading from "./heading";
 
 class App extends Component {
 
-  state = {
-    nominatedMovies: [],
-    displayWarning: false
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      nominatedMovies: [],
+      displayWarning: false
+    };
+  }
 
   componentDidMount() {
     let temp = ls.get('nominated');
@@ -26,7 +29,7 @@ class App extends Component {
 
     if (temp) {
       temp.length === 5 ? this.setState({ displayWarning: true }) : this.setState({ displayWarning: false })
-      //console.log(temp);
+      console.log(this.state.nominatedMovies.length);
     }
   }
 
@@ -40,10 +43,11 @@ class App extends Component {
 
   handleNomination = (movie) => {
     //add movie to nomination  list
-    let temp = [...this.state.nominatedMovies, movie];
-    this.setState({ nominatedMovies: temp });
-    ls.set('nominated', temp);
-    temp.length === 5 ? this.setState({ displayWarning: true }) : this.setState({ displayWarning: false })
+    let list = this.state.nominatedMovies.concat(movie);
+    this.setState({ nominatedMovies: list })
+
+    ls.set('nominated', list);
+    list.length === 5 ? this.setState({ displayWarning: true }) : this.setState({ displayWarning: false })
 
   };
 
