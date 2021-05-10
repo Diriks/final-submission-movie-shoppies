@@ -50,8 +50,9 @@ class SearchComponent extends Component {
                 delete={false}
                 onNominate={this.props.onNominate}
                 nominated={
-                  this.props.movies.length > 4 ||
-                  this.props.movies.find((c) => c.Title === movie.Title)
+                  this.props.movies &&
+                  (this.props.movies.length > 4 ||
+                    this.props.movies.find((c) => c.Title === movie.Title))
                     ? true
                     : false
                 }
