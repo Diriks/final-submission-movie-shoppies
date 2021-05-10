@@ -8,7 +8,7 @@ import "./../App.css";
 class NominationComponent extends Component {
   render() {
     return (
-      <div className="container-fluid movie-app">
+      <div className=" movie-app">
         <div className="row__posters">
           {this.props.movies ? (
             this.props.movies.map((movie) => (
