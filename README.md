@@ -24,7 +24,7 @@ Libraries used
 - Bootstrap, axios, local storage, react, Node.js, git
 
 General notes
-- All components were developed from scratch and implemented based on the design system that was made as part of this challenge.
+- All components were developed from scratch and implemented based on the challenge specifications.
 
 Problems Ecountered and modifications made
 - The API was not very efficient in returning search results. Search terms are supposed to progressively display results as user starts to type.
