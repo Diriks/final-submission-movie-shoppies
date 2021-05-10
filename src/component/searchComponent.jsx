@@ -14,11 +14,11 @@ class SearchComponent extends Component {
   //get the movies from the API
   sendQuery = async (query) => {
     let movies = await axios.get(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=7ef2162c&type=movie&s=${query}`
+      `https://www.omdbapi.com/?i=tt3896198&apikey=7ef2162c&type=movie&s=${query}`
     );
     if (movies.data.Response === "False") {
       let movies = await axios.get(
-        `http://www.omdbapi.com/?i=tt3896198&apikey=7ef2162c&type=movie&t=${query}`
+        `https://www.omdbapi.com/?i=tt3896198&apikey=7ef2162c&type=movie&t=${query}`
       );
       if (movies.data.Response === "True")
         this.setState({ searchResults: [movies.data] });
