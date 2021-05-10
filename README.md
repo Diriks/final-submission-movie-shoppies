@@ -17,7 +17,7 @@ Features
 
 Design
 - This app was mostly built using React JSX, Node.js, Bootstrap, CSS, HTML. It was hosted using GitHub Pages
-Special care and attention were paid to the scalability and maintaince aspect of the app during its development.
+- Special care and attention were paid to the scalability and maintaince aspect of the app during its development.
 Proper object oriented practicecs and encapsulation were applied to ensure changes can easily be made to the files should the specifications change, which is very comon in real world applications.
 
 Libraries used
