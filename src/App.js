@@ -23,7 +23,11 @@ class App extends Component {
   componentDidMount() {
     let temp = ls.get('nominated');
     this.setState({ nominatedMovies: temp });
-    temp.length === 5 ? this.setState({ displayWarning: true }) : this.setState({ displayWarning: false })
+
+    if (temp) {
+      temp.length === 5 ? this.setState({ displayWarning: true }) : this.setState({ displayWarning: false })
+      //console.log(temp);
+    }
   }
 
   handleDelete = (movieID) => {
@@ -58,17 +62,18 @@ class App extends Component {
 
     return (
       <React.Fragment>
-        <div className="container-fluid movie-app">
+        <div className="container-fluid movie-app" style={{ flex: 2, justifyContent: 'center', alignItems: 'center' }}>
           <SearchComponent
             movies={this.state.nominatedMovies}
             onNominate={this.handleNomination}
           />
-          <div className="row d-flex align-items-center mt-4 mb-4">
-            <Heading heading="Nominations" />
-          </div>
+
+          <Heading heading="Nominations" />
+
           <button className="button"
             onClick={this.handleReset}
           >Reset Nominations</button>
+
           {this.state.displayWarning ? <h3>You can only nominate 5 movies! Reset or delete some movies to nominate</h3> : ''}
           <NominationsComponent
             movies={this.state.nominatedMovies}
