@@ -5,14 +5,14 @@ https://diriks.github.io/final-submission-movie-shoppies/  link to hosted websit
 https://docs.google.com/document/d/1SdR9rQpocsH5rPTOcxr9noqHRld5NJlylKO9Hf94U8U/edit#. link to challenge requirements
 
 Features
-The user may:
+- The user may:
 
-Search movies (10 results max) by title
-Save their list of movies to local storage
-The application will automatically save the list on closing
-User cannot nominate more than 5 movies. A message is displayed when no more nominations can be done
-Saving list
-Reset nomination list to empty
+- Search movies (10 results max) by title
+- Save their list of movies to local storage
+- The application will automatically save the list on closing
+- User cannot nominate more than 5 movies. A message is displayed when no more nominations can be done
+- Saving list and persisiting on local storage even after closing the app
+- Reset nomination list to empty
 
 
 Design
