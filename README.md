@@ -10,7 +10,7 @@ Features
 - Search movies (10 results max) by title
 - Save their list of movies to local storage
 - The application will automatically save the list on closing
-- User cannot nominate more than 5 movies. A message is displayed when no more nominations can be done
+- User cannot nominate more than 5 movies. A message is displayed when no more nominations can be done and all the nomination buttons are disabled
 - Saving list and persisiting on local storage even after closing the app
 - Reset nomination list to empty
 
