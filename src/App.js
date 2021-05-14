@@ -25,9 +25,9 @@ class App extends Component {
 
   componentDidMount() {
     let temp = ls.get('nominated');
-    this.setState({ nominatedMovies: temp });
 
     if (temp) {
+      this.setState({ nominatedMovies: temp });
       temp.length === 5 ? this.setState({ displayWarning: true }) : this.setState({ displayWarning: false })
       console.log(this.state.nominatedMovies.length);
     }
