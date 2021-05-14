@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/final-submission-movie-shoppies/static/css/main.83c4e1ac.chunk.css",
-    "main.js": "/final-submission-movie-shoppies/static/js/main.2e89c385.chunk.js",
-    "main.js.map": "/final-submission-movie-shoppies/static/js/main.2e89c385.chunk.js.map",
+    "main.js": "/final-submission-movie-shoppies/static/js/main.ae568362.chunk.js",
+    "main.js.map": "/final-submission-movie-shoppies/static/js/main.ae568362.chunk.js.map",
     "runtime-main.js": "/final-submission-movie-shoppies/static/js/runtime-main.1d4cf124.js",
     "runtime-main.js.map": "/final-submission-movie-shoppies/static/js/runtime-main.1d4cf124.js.map",
     "static/css/2.be1f5aa0.chunk.css": "/final-submission-movie-shoppies/static/css/2.be1f5aa0.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.be1f5aa0.chunk.css",
     "static/js/2.24e1ce2c.chunk.js",
     "static/css/main.83c4e1ac.chunk.css",
-    "static/js/main.2e89c385.chunk.js"
+    "static/js/main.ae568362.chunk.js"
   ]
 }
